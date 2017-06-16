@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.css">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+	*{
+		margin: 0;
+	}
+		.all{
+			border: solid 1px #000;
+			width: 400px;
+			margin: 10% auto
+		}
+		header h2 {
+			font-family: sans-serif;
+			border-bottom: solid 1px #000;
+			width: 400px;
+			margin: 0;
+			padding: 20px 0px;
+			background-color: #000;
+			color: #fff;
+		}
+		.input .p input, .input .pp input{
+			width: 250px;
+			padding: 5px 0px;
+			border: none;
+			margin-top: 4px;
+			outline: none;
+		}
+		.input .p, .input .pp {
+			border: solid 1px #000;
+			width: 300px;
+			height: 40px;
+			margin: 30px auto;
+			border-radius: 4px;
+		}
+		.input {
+			margin-top: 50px;
+		}
+		p button {
+			width: 300px;
+			padding: 7px;
+			background: #000;
+			color: #fff;
+			border: none;
+			border-radius: 4px;
+			margin:20px 0px;
+		}
+	</style>
+</head>
+<body>
+	<section class="all">
+		<header>
+			<center>
+				<h2>LOGIN</h2>
+			</center>
+		</header>
+		<section>
+			<div class="bor">
+				<div class="input">
+					<div class="p">
+						<center>
+							<p>
+								<i class="fa fa-user" style="padding-right: 10px;"></i>
+								<input type="text" name="" placeholder="Username" maxlength="4" multiple="">
+							</p>
+						</center>
+					</div>
+					<div class="pp">
+						<center>
+							<p>
+								<i class="fa fa-lock" style="padding-right: 10px;"></i>
+								<input type="password" name="" placeholder="Password">
+							</p>
+						</center>
+					</div>
+					<div class="check" style="width: 100%; margin: 0px 13%;margin-top: -20px;">
+							<input type="checkbox" name="" style="float: left;">
+							<p style="float: left; font-size: 12px; padding-left: 5px; padding-top: 3px;">Remember Me</p>
+							<p><a href="#" style="float: left; font-size: 12px; text-decoration: none; padding-left: 18%;padding-top: 3px;">Forgot Your Password ?</a></p>
+					</div>
+					<center>
+						<p>
+						<a href="index-h.html">
+							<button>
+								Login
+							</button>
+						</a>
+						</p>
+						<p style="padding-bottom: 30px;">
+							<a href="register.html">Don't have an Account ?</a>
+						</p>
+					</center>
+				</div>
+			</div>
+		</section>
+	</section>
+</body>
+</html>
